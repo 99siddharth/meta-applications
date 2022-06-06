@@ -8,5 +8,5 @@ IMAGE_LINGUAS = "zh-cn"
 
 IMAGE_NAME = "myimage"
 
-IMAGE_INSTALL_APPEND = "linkedlist"
+IMAGE_INSTALL_append = " linkedlist"
 
