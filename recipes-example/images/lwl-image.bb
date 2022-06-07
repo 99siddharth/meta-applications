@@ -10,3 +10,5 @@ IMAGE_NAME = "myimage"
 
 IMAGE_INSTALL_append = " linkedlist"
 
+IMAGE_INSTALL_append = " packagegroup-application"
+
