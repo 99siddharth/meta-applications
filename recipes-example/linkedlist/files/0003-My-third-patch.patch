@@ -1,0 +1,25 @@
+From b2e95683a3f2a20546fc15f84641b5fdd015b5d5 Mon Sep 17 00:00:00 2001
+From: Siddharth Kumar <siddharth.kumar@einfochips.com>
+Date: Fri, 10 Jun 2022 15:23:21 +0530
+Subject: [PATCH 3/3] My third patch
+
+---
+ Hello_yocto.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Hello_yocto.c b/Hello_yocto.c
+index ac85e65..6ec02a8 100644
+--- a/Hello_yocto.c
++++ b/Hello_yocto.c
+@@ -55,7 +55,7 @@ int main()
+ 
+     while(1)
+     {
+-        printf("\nEnter the choice:\n1: For Insertion in first\n2: For insertion in last\n3: For Exit: ");
++        printf("\nEnter the choice:\n1: For Insertion in first\n2: For insertion in last\n3: For Exit: \n\n\n");
+         scanf("%d",&i);
+         if(i==1)
+         {
+-- 
+2.17.1
+
